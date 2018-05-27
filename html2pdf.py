@@ -498,7 +498,7 @@ if __name__ == '__main__':
     # obj.run()
 
     url = 'https://webpack.docschina.org/plugins/'
-    obj = HTMLtoPDF(url, pdf='webpack_插件', css_links='div.sidebar-item a::attr(href)', xpath_content="//section[@class='page__content']/node()[position()<4]")
+    # obj = HTMLtoPDF(url, pdf='webpack_插件', css_links='div.sidebar-item a::attr(href)', xpath_content="//section[@class='page__content']/node()[position()<4]")
     obj = HTMLtoPDF(url, pdf='webpack_插件', css_links='div.sidebar-item a::attr(href)', xpath_content="//section[@class='page__content']/h1[1],//section[@class='page__content']/div[2]")
 
     obj.run()
